@@ -1,0 +1,23 @@
+PENUKARAN VARIABEL
+
+define swap(x,y)
+buffer = x;
+x = y;
+y = buffer;
+
+PENUKARAN BUAH
+
+Algoritma
+1. Terdapat Manggis di piring 1
+2. Terdapat Pisang di piring 2
+3. Terdapat Piring 3 Kosong
+4. Pindahkan Pisang ke piring 3
+5. Karena piring 2 kosong maka pindahkan manggis ke piring ke 2
+6. Lalu karena piring ke 1 sudah kosong, maka pindahkan pisang ke piring ke 1
+
+Pseudecode
+int a = manggis, b = pisang, c = 0;
+c = b;
+b = a;
+a = c;
+
