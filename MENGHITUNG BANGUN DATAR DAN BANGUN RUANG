@@ -1,0 +1,76 @@
+Menghitung Luas Segitiga
+
+Algoritma
+1. Sediakan 3 variabel, yaitu a,b,c
+2. Masukan nilai 25 pada variabel a
+3. Masukan Nilai 30 pada variabel b
+4. Lakukan kalkulasi dengan ketentuan ( a * b / 2) dan masukan hasil kalkulasi pada variabel c
+
+Pseudecode
+int a = alas,b = tinggi,c = 0;
+a = 25 ;
+b = 30 ;
+c = (a * b / 2);
+
+Menghitung Luas Jajar Genjang
+
+Algoritma 
+1. Sediakan 3 Variabel untuk menampung nilai alas, tinggi, hasilnya
+2. Masukan Nilai Panjang, yaitu 5 pada variabel p
+3. Masukan Nilai Lebar, yaitu 3 pada variabel l
+4. Lakukan Kalkulasi dengan ketentuan (p*l) dan masukan hasil tersebut pada variabel x
+
+Pseudecode
+int p = panjang, lebar = l, x = 0;
+switch(tabung)
+
+p = 5;
+l = 3;
+x = p * l;
+
+Menghitung Volume Tabung
+
+Algoritma
+1. Sediakan 4 variabel untuk menampung nilai phi, jari jari, tinggi, dah hasil volume tabung (phi, r, t, x)
+2. Masukan nilai jari jari, yaitu 3 pada variabel r
+3. Masukan nilai tinggi, yaitu 5 pada variabel t
+4. kalkulasikan dengan ketentuan (phi * r * r * t) dan masukan nilai kalkulasi pada variabel x
+
+int phi, r, t, x;
+switch (tabung)
+case 'A'
+phi = (22/7)
+r = 3;
+t = 5;
+x = (phi * r * r * t); 
+
+case 'B'
+phi = (3,14)
+r = 3;
+t = 5;
+x = (phi * r * r * t); 
+
+MENGHITUNG VOLUME KERUCUT
+
+Algoritma
+1. Sediakan 5 variabel untuk menampung nilai phi, diameter,jari jari, tinggi, dah hasil volume kerucut (phi, d, r, t, x)
+2. Masukan nilai diameter yaitu 5 pada variabel d
+3. nilai jari jari akan dikalkulasi secara otomatis dengan ketentuan (d/2) dan nilai tersebut akan tersimpan  pada varibel r
+4. Masukan nilai tinggi, yaitu 4 pada variabel t
+5. kalkulasikan dengan ketentuan (phi * r * r * t / 3) dan masukan nilai kalkulasi pada variabel x
+
+int phi, d, r, t, x;
+switch (tabung)
+case 'A'
+phi = (22/7)
+d = 5;
+r = d/2;
+t = 4;
+x = (phi * r * r * t / 3); 
+
+case 'B'
+phi = (3,14)
+d = 5;
+r = d/2;
+t = 4;
+x = (phi * r * r * t / 3); 
