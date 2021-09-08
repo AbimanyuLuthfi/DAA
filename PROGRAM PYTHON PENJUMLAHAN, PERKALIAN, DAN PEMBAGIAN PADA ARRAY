@@ -1,4 +1,4 @@
-Program Penjumlahan Pada Python
+#Program Penjumlahan Pada Python
 
 def getSum(myList):
     sum = 0
@@ -8,7 +8,7 @@ def getSum(myList):
     
 getSum([1,2,3,4])
 
-Program Perkalian Pada Python
+#Program Perkalian Pada Python
 
 def getKali(myList):
     kali = 1
@@ -18,7 +18,7 @@ def getKali(myList):
     
 getKali([1,2,3,4,5])
 
-Program Pembagian Pada Python
+#Program Pembagian Pada Python
 
 def getBagi(myList):
     bagi = 100
