@@ -33,3 +33,14 @@ def getBagi(myList):
     return bagi
 
 getBagi([[1,2,5],[3,4,7]])
+
+#Program Pengurangan
+def getKurang(myList):
+    kurang = 100
+    for row in myList:
+        for item in row :
+            kurang -= item
+            
+    return kurang
+
+getKurang([[1,2,5],[3,4,7]])
