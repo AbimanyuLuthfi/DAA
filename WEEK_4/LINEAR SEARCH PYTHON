@@ -11,8 +11,13 @@ def LinearSearch(list, item):
             index = index + 1
     return found
     
-# Contoh Penerapan
+# Contoh Penerapan 1
 
 list = [12, 33, 11, 99, 22, 55, 90]
 print(LinearSearch(list, 12))
 print(LinearSearch(list, 91))
+
+# Contoh Penerapan 2
+
+list = ["y","u","i", "w", "o", "a", "q", "u", "j", "p"]
+print(LinearSearch(list,"a"))
