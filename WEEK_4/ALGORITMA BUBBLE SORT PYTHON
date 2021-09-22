@@ -8,3 +8,8 @@ for idx in range (lastElementIndex):
                 if list[idx]>list[idx+1]:
                     list[idx],list[idx+1]=list[idx+1],list[idx]
                 print(idx+1,list)
+
+# Contoh Penerapan
+
+list = [25,21,22,24,23,27,26]
+BubbleSort(list)
