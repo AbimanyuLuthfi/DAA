@@ -1,3 +1,4 @@
+# Untuk menampilkan matriks pada Nodes yang sudah tercetak pada program sebelumnya
 def createPageRank(aGraph) :
     nodes_set = len(aGraph)
     M = nx.to_numpy_matrix(aGraph)
